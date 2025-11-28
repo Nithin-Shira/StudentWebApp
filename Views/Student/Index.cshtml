@@ -1,0 +1,32 @@
+
+@model List<Student>
+
+<h2 class="fw-bold mb-4">Student Dashboard</h2>
+
+<a href="/Student/Add" class="btn btn-primary mb-3">
+    <i class="bi bi-plus-circle"></i> Add Student
+</a>
+
+<div class="row">
+@foreach (var s in Model)
+{
+    <div class="col-md-4 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="fw-bold">@s.FullName</h5>
+                <p>@s.Email</p>
+                <p>Course: @s.Course</p>
+                <p>City: @s.City</p>
+                <p>Fee: ₹@s.FeePaid</p>
+
+                <a class="btn btn-sm btn-secondary" href="/Student/Details/@s.Id">Details</a>
+                <a class="btn btn-sm btn-warning" href="/Student/Edit/@s.Id">Edit</a>
+
+                <form method="post" action="/Student/Delete/@s.Id" style="display:inline-block;">
+                    <button class="btn btn-sm btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+</div>

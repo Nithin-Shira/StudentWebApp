@@ -1,0 +1,41 @@
+@model Student
+@{
+    ViewData["Title"] = "Student Profile";
+    var initials = Model.FullName?.Split(' ', StringSplitOptions.RemoveEmptyEntries).Select(x => x[0]).Take(2);
+    var avatarText = string.Join("", initials).ToUpper();
+    var isAdmin = ViewBag.IsAdmin ?? false;
+}
+
+<div class="card glass p-4" style="max-width:800px;margin:auto;">
+    <div class="d-flex gap-4 align-items-center">
+        <div class="avatar" style="width:90px;height:90px;font-size:30px;">@avatarText</div>
+        <div>
+            <h3 class="mb-1">@Model.FullName</h3>
+            <div class="text-muted">@Model.Email</div>
+            <div class="mt-2">
+                <span class="badge bg-info text-dark">@Model.Course</span>
+                <span class="badge bg-secondary">@Model.City</span>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col-md-6">
+            <p><strong>Phone:</strong> @Model.Phone</p>
+            <p><strong>Admission Date:</strong> @Model.AdmissionDate.ToShortDateString()</p>
+        </div>
+        <div class="col-md-6">
+            <p><strong>Fee Paid:</strong> ₹@Model.FeePaid</p>
+        </div>
+    </div>
+
+    <div class="mt-4 d-flex justify-content-between">
+        <a class="btn btn-secondary" href="/Student">Back</a>
+        @if (isAdmin)
+        {
+            <a class="btn btn-warning text-white" href="/Student/Edit/@Model.Id">Edit</a>
+        }
+    </div>
+</div>

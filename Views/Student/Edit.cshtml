@@ -1,0 +1,45 @@
+@model Student
+@{
+    ViewData["Title"] = "Edit Student";
+}
+
+<div class="card glass p-4" style="max-width:900px;margin:auto;">
+    <form method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="row g-3">
+            <div class="col-md-6">
+                <label class="form-label">Full Name</label>
+                <input name="FullName" class="form-control" value="@Model.FullName" />
+            </div>
+            <div class="col-md-6">
+                <label class="form-label">Email</label>
+                <input name="Email" class="form-control" value="@Model.Email" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Course</label>
+                <input name="Course" class="form-control" value="@Model.Course" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">City</label>
+                <input name="City" class="form-control" value="@Model.City" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Phone</label>
+                <input name="Phone" class="form-control" value="@Model.Phone" />
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Fee Paid</label>
+                <input name="FeePaid" type="number" class="form-control" value="@Model.FeePaid" />
+            </div>
+        </div>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <a class="btn btn-secondary" href="/Student">Back</a>
+            <button class="btn btn-warning text-white">Update</button>
+        </div>
+    </form>
+</div>
