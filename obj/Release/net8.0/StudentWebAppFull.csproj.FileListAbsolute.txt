@@ -27,4 +27,3 @@ D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Release\net8.0\refin
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Release\net8.0\StudentWebAppFull.pdb
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Release\net8.0\StudentWebAppFull.genruntimeconfig.cache
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Release\net8.0\ref\StudentWebAppFull.dll
-D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Release\net8.0\staticwebassets.upToDateCheck.txt
