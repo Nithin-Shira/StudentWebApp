@@ -21,9 +21,9 @@ D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\staticw
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\staticwebassets.development.json
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\swae.build.ex.cache
-D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\StudentWebAppFull.dll
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\refint\StudentWebAppFull.dll
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\StudentWebAppFull.pdb
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\StudentWebAppFull.genruntimeconfig.cache
 D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\ref\StudentWebAppFull.dll
+D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\obj\Debug\net8.0\StudentWebAppFull.sourcelink.json

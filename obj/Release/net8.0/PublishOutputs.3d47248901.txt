@@ -1,0 +1,5 @@
+D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\bin\Release\net8.0\publish\StudentWebAppFull.exe
+D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\bin\Release\net8.0\publish\StudentWebAppFull.dll
+D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\bin\Release\net8.0\publish\StudentWebAppFull.deps.json
+D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\bin\Release\net8.0\publish\StudentWebAppFull.runtimeconfig.json
+D:\Downloads\wORKSHOP\Project\StudentWebApp_FullProject\bin\Release\net8.0\publish\StudentWebAppFull.pdb

@@ -1,0 +1,5 @@
+[build]
+builder = "railway-nix"
+
+[deploy]
+start = "dotnet StudentWebAppFull.dll"
